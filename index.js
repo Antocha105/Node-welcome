@@ -1,3 +1,7 @@
 'use strict'
 
-console.log('Hello world')
+const _ = require('lodash')
+
+const randomNumber = Number(_.random(1,10,false).toFixed(2))
+
+console.log(randomNumber);
